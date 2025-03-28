@@ -1,7 +1,9 @@
 import 'package:attendsure/pages/bottomNavbar_pages/Homepage/std_home_page.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/Homepage/tr_home_page.dart';
-import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/stdAttendance_page.dart';
-import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/trAttendance_page.dart';
+import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/stdAttendanaceWithqr_page.dart';
+// import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/stdAttendance_page.dart';
+import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/trAttendanceWithqr_page.dart';
+// import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/trAttendance_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -57,9 +59,11 @@ class _HomePageState extends State<HomePage> {
 
   Widget _getAttendancePage() {
     if (widget.loginType == 'teacher') {
-      return TrattendancePage(); // Use the ERP number here
+      // return TrattendancePage(); // Use the ERP number here
+      return TrattendanceWithQRPage();
     } else {
-      return StdattendancePage(); // Use the ERP number here
+      // return StdattendancePage(); // Use the ERP number here
+      return StdattendanceWithQRPage(); // Use the ERP number here
     }
   }
 

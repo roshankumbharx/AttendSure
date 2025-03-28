@@ -82,7 +82,7 @@ class _StdattendancePageState extends State<StdattendancePage> {
     }
     LocationSettings locationSettings = LocationSettings(
       accuracy: LocationAccuracy.high,
-      distanceFilter: 1, // Update only if the location changes by 1 meter
+      distanceFilter: 10, // Update only if the location changes by 10 meter
     );
     Position stdCurrentloc =
         await Geolocator.getCurrentPosition(locationSettings: locationSettings);
@@ -93,7 +93,7 @@ class _StdattendancePageState extends State<StdattendancePage> {
   void startLocationStream() {
     LocationSettings locationSettings = LocationSettings(
       accuracy: LocationAccuracy.high,
-      distanceFilter: 1, // Set minimum distance for updates
+      distanceFilter: 10, // Set minimum distance for updates
     );
 
     positionStream = Geolocator.getPositionStream(
@@ -152,7 +152,7 @@ class _StdattendancePageState extends State<StdattendancePage> {
       });
     }
 
-    if (distance > 20) {
+    if (distance > 50) {
       showSnackBar('Out of bounds');
       return false;
     }

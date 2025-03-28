@@ -2,7 +2,11 @@ import 'package:attendsure/firebase_services/std_details.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/Homepage/std_home_page.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/Homepage/tr_home_page.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/attendance_page.dart';
+import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/qrDisplay_page.dart';
+import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/qrScanner_page.dart';
+import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/stdAttendanaceWithqr_page.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/stdAttendance_page.dart';
+import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/trAttendanceWithqr_page.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/trAttendance_page.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/attendancePage/view_attendance.dart';
 import 'package:attendsure/pages/bottomNavbar_pages/ProfilePage/profile_page.dart';
@@ -42,12 +46,28 @@ class MyApp extends StatelessWidget {
         Myroutes.trErpLoginRoute: (context) => TrErploginPage(),
         Myroutes.trAttendanceRoute: (context) => TrattendancePage(),
         Myroutes.stdAttendanceRoute: (context) => StdattendancePage(),
-        Myroutes.viewAttendanceRoute: (context) => ViewAttendance(),
+        Myroutes.viewAttendanceRoute: (context) => ViewAttendance(subject: '',),
         Myroutes.trHomePageRoute: (context) => TrHomePage(),
         Myroutes.stdHomePageRoute: (context) => StdHomePage(),
+        Myroutes.trAttendanceWithqrRoute: (context) => TrattendanceWithQRPage(),
+        Myroutes.stdAttendanceWithqrRoute: (context) => StdattendanceWithQRPage(),
+        Myroutes.QRscannerRoute: (context) => QRScanPage(),
+        // Remove direct mapping for QrDisplayPage from routes
       },
       onGenerateRoute: (settings) {
-        // Handle named routes dynamically without passing erpNo as arguments
+        // Handle QrDisplayPage route by extracting arguments
+        if (settings.name == Myroutes.QRDisplayRoute) {
+          final args = settings.arguments as Map<String, dynamic>;
+          return MaterialPageRoute(
+            builder: (context) => QrDisplayPage(
+              otp: args['otp'] as int,
+              subject: args['subject'] as String,
+              startTime: args['startTime'] as String,
+              endTime: args['endTime'] as String,
+            ),
+          );
+        }
+        // Handle other dynamic routes if needed.
         if (settings.name == Myroutes.stdDetailsRoute) {
           return MaterialPageRoute(
             builder: (context) => StudentDetails(), // No erpNo needed here
@@ -57,16 +77,14 @@ class MyApp extends StatelessWidget {
           final arguments = settings.arguments as Map<String, String>;
           final loginType = arguments['loginType']!;
           return MaterialPageRoute(
-            builder: (context) =>
-                HomePage(loginType: loginType), // No erpNo needed here
+            builder: (context) => HomePage(loginType: loginType),
           );
         }
         if (settings.name == Myroutes.trDetailsRoute) {
           final arguments = settings.arguments as Map<String, String>;
           final loginType = arguments['loginType']!;
           return MaterialPageRoute(
-            builder: (context) =>
-                HomePage(loginType: loginType), // No erpNo needed here
+            builder: (context) => HomePage(loginType: loginType),
           );
         }
         return null;

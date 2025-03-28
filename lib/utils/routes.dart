@@ -15,4 +15,8 @@ class Myroutes {
   static const String trHomePageRoute = '/trHomePage';
   static const String stdHomePageRoute = '/stdHomePage';
   static const String viewAttendanceRoute = '/viewAttendance';
+  static const String trAttendanceWithqrRoute = '/trAttendanceWithqr';
+  static const String stdAttendanceWithqrRoute = '/stdAttendanceWithqr';
+  static const String QRscannerRoute = '/qrScanner';
+  static const String QRDisplayRoute = '/qrDisplay';
 }

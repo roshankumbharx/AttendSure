@@ -17,3 +17,6 @@ const logger = require("firebase-functions/logger");
 //   logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
 // });
+
+// ----------------------------------------------------------------------------------
+

@@ -7,7 +7,11 @@ class TimetablePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Time Table Page"),
+        child: Image.asset(
+          "assets/images/timetable.png",
+          width: 500,
+          height: 500,
+        ),
       ),
     );
   }

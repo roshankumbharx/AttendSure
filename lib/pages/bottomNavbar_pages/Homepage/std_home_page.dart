@@ -1,3 +1,4 @@
+import 'package:attendsure/pages/bottomNavbar_pages/timetable_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -136,7 +137,12 @@ class _StdHomePageState extends State<StdHomePage> {
                                   style: TextStyle(
                                       color: Colors.white, fontSize: 18))),
                           ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const TimetablePage()),
+            );
+                            },
                             style: ElevatedButton.styleFrom(
                                 backgroundColor: Color(0xFF0486FD)),
                             child: Text("Today's TimeTable",

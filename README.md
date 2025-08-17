@@ -17,10 +17,16 @@
 
 ## Screenshorts
 # Landing Page :
-<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView1.png" alt="Landing Page" width="250"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView1.png" alt="Landing Page" width="200"/>
 
-
-
+# Teachers View :
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView2.png" alt="Landing Page" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView3.png" alt="Landing Page" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView4.png" alt="Landing Page" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView5.png" alt="Landing Page" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView6.png" alt="Landing Page" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView7.png" alt="Landing Page" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView8.png" alt="Landing Page" width="200"/>
 
 ## 🛠 Tech Stack
 

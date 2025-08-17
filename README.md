@@ -17,7 +17,8 @@
 
 ## Screenshorts
 # Landing Page :
-![Landing Page](https://raw.githubusercontent.com/roshankumbharx/AttendSure/refs/heads/main/assets/images/TeacherView1.png)
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView1.png" alt="Landing Page" width="250"/>
+
 
 
 

@@ -19,18 +19,29 @@
 # Landing Page :
 <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView1.png" alt="Landing Page" width="200"/>
 
-# Teachers View :
+# Teacher's View :
 <p align="center">
-  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView2.png" alt="Teacher View" width="200"/>
-  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView3.png" alt="Student View" width="200"/>
-<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView4.png" alt="Landing Page" width="200"/>
-<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView5.png" alt="Landing Page" width="200"/>
-<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView6.png" alt="Landing Page" width="200"/>
-<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView7.png" alt="Landing Page" width="200"/>
-<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView8.png" alt="Landing Page" width="200"/>
+  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView2.png" alt="Teacher View 1" width="200"/>
+  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView3.png" alt="Teacher View 2" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView4.png" alt="Teacher View 3" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView5.png" alt="Teacher View 4" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView6.png" alt="Teacher View 5" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView7.png" alt="Teacher View 6" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView8.png" alt="Teacher View 7" width="200"/>
   
 </p>
 
+# Student's View :
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView1.png" alt="Student View 1" width="200"/>
+  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView2.png" alt="Student View 2" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView3.png" alt="Student View 3" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView4.png" alt="Student View 4" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView5.png" alt="Student View 5" width="200"/>
+<img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView6.png" alt="Student View 6" width="200"/>
+  
+</p>
 
 
 ## 🛠 Tech Stack

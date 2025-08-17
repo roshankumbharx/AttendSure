@@ -20,6 +20,11 @@
 <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView1.png" alt="Landing Page" width="200"/>
 
 # Teachers View :
+<p align="center">
+  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView2.png" alt="Teacher View" width="200"/>
+  <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView3.png" alt="Student View" width="200"/>
+</p>
+
 <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView2.png" alt="Landing Page" width="200"/>
 <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView3.png" alt="Landing Page" width="200"/>
 <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView4.png" alt="Landing Page" width="200"/>

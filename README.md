@@ -17,7 +17,7 @@
 
 ## Screenshorts
 # Teacher's View :
-<img src=".assets\images\TeacherView1.png" alt="Landing Page" width="250"/>
+<img src=".assets/images/TeacherView1.png" alt="Landing Page" width="250"/>
 
 
 

@@ -10,7 +10,7 @@
 - ✅ **OTP & QR Code-Based Attendance Marking** – Secure and quick attendance using one-time passwords or scannable QR codes.   
 - ✅ **Live Student Attendance Dashboard** – Teachers and admins can view student presence in real time via an interactive dashboard.  
 - ✅ **Geo-Location Based Attendance Validation** – A student can only mark attendance if they are within a certain range (e.g., 50m) of the teacher, and the OTP is time-bound (valid for 2 minutes).  
-
+- ✅ **Manual Marking Option** – If a student fails to mark attendance for any reason, the teacher can manually mark them present using the *Mark Present* button.
 
 ---
 

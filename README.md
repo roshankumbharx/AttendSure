@@ -16,8 +16,8 @@
 
 
 ## Screenshorts
-# Teacher's View :
-![image alt] (https://github.com/roshankumbharx/AttendSure/blob/f657e4b8547e3ef7f8247a938096f8453680af9a/assets/images/TeacherView1.png)
+# Landing Page :
+![Landing Page]([https://github.com/roshankumbharx/AttendSure/blob/f657e4b8547e3ef7f8247a938096f8453680af9a/assets/images/TeacherView1.png](https://raw.githubusercontent.com/roshankumbharx/AttendSure/refs/heads/main/assets/images/TeacherView1.png))
 
 
 

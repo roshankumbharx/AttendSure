@@ -17,7 +17,7 @@
 
 ## Screenshorts
 # Teacher's View :
-<img src=".assets/images/TeacherView1.png" alt="Landing Page" width="250"/>
+![image alt] (https://github.com/roshankumbharx/AttendSure/blob/f657e4b8547e3ef7f8247a938096f8453680af9a/assets/images/TeacherView1.png)
 
 
 

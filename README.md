@@ -15,11 +15,11 @@
 ---
 
 
-## Screenshorts
-# Landing Page :
+# Screenshorts
+## Landing Page :
 <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView1.png" alt="Landing Page" width="200"/>
 
-# Teacher's View :
+## Teacher's View :
 <p align="center">
   <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView2.png" alt="Teacher View 1" width="200"/>
   <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/TeacherView3.png" alt="Teacher View 2" width="200"/>
@@ -31,7 +31,7 @@
   
 </p>
 
-# Student's View :
+## Student's View :
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/roshankumbharx/AttendSure/main/assets/images/StudentView1.png" alt="Student View 1" width="200"/>
@@ -70,7 +70,7 @@ Ensure the following tools are installed on your system:
 ### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/attensure.git
+git clone https://github.com/roshankumbharx/attendsure.git
 cd attendsure
 
 

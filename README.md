@@ -4,13 +4,13 @@
 
 ---
 
-## 🚀 Features
+## 🚀 Features  
 
-✅ **Real-Time Tracking and Reporting**  
-✅ **OTP & QR Code-Based Attendance Marking**  
-✅ **Attendance Analytics and Trends**  
-✅ **Live Student Attendance Dashboard**  
-✅ **Geo-Location Based Attendance Validation**
+- ✅ **Real-Time Tracking and Reporting** – Monitor attendance instantly with up-to-date records and detailed reports.  
+- ✅ **OTP & QR Code-Based Attendance Marking** – Secure and quick attendance using one-time passwords or scannable QR codes.   
+- ✅ **Live Student Attendance Dashboard** – Teachers and admins can view student presence in real time via an interactive dashboard.  
+- ✅ **Geo-Location Based Attendance Validation** – A student can only mark attendance if they are within a certain range (e.g., 50m) of the teacher, and the OTP is time-bound (valid for 2 minutes).  
+
 
 ---
 

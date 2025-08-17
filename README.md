@@ -14,6 +14,13 @@
 
 ---
 
+
+## Screenshorts
+# Teacher's View :
+<img src="./assets/TeacherView1.png" alt="Login Page" width="250"/>
+
+
+
 ## 🛠 Tech Stack
 
 | Technology      | Role                          |

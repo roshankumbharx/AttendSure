@@ -3,17 +3,17 @@
     "platforms": {
       "android": {
         "default": {
-          "projectId": "fir-testing-ac295",
-          "appId": "1:250970777186:android:54026e554bf6c0f38b533b",
-          "fileOutput": "android/app/google-services.json"
+          "projectId": "xxx",
+          "appId": "xxx",
+          "fileOutput": "xxx"
         }
       },
       "dart": {
         "lib/firebase_options.dart": {
-          "projectId": "fir-testing-ac295",
+          "projectId": "xxx",
           "configurations": {
-            "android": "1:250970777186:android:54026e554bf6c0f38b533b",
-            "ios": "1:250970777186:ios:554dc89cd4c585678b533b"
+            "android": "xxx",
+            "ios": "xxx"
           }
         }
       }

@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "fir-testing-ac295",
-    "attendsure": "fir-testing-ac295"
+    "default": "",
+    "attendsure": ""
   },
   "targets": {},
   "etags": {}
